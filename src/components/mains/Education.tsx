@@ -11,7 +11,7 @@ export const LeftBorders = styled.p `
 const StyledTable = styled.table`
     margin: auto;
 `
-const TableDetail = styled.td`
+export const TableDetail = styled.td`
     text-align: left;
     padding-top: 5%;
     font-size: calc(2px + 1.25vw);

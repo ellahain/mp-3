@@ -3,12 +3,7 @@ import {StyledMain} from "./Home.tsx";
 import {StyledImage} from "./Work.tsx";
 import {StyledHeader} from "./Home.tsx";
 import {LeftBorders} from "./Education.tsx";
-
-const TableDetail = styled.td`
-    text-align: left;
-    padding-top: 5%;
-    font-size: calc(2px + 1.25vw);
-`
+import {TableDetail} from "./Education.tsx";
 
 const TableList = styled.ul `
     padding-left: 20%;
