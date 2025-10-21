@@ -2,11 +2,7 @@ import styled from "styled-components";
 import {StyledMain} from "./Home.tsx";
 import {StyledImage} from "./Work.tsx";
 import {StyledHeader} from "./Home.tsx";
-
-const LeftBorders = styled.p `
-    border-left: 2px solid #321325;
-    padding-left: 1%;
-`
+import {LeftBorders} from "./Education.tsx";
 
 const TableDetail = styled.td`
     text-align: left;

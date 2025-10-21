@@ -23,7 +23,7 @@ const StyledText = styled.p`
 `
 
 
-export const StyledImage = styled.img `
+const StyledImage = styled.img `
     max-width: 100%;
     height: auto;
     float: left;
