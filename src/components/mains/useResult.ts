@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 
-
+/*this Custom Hook is for testing whether the answers are positive or negative*/
 function useResult(result: string): boolean {
     const [positive, setPositive] = useState(true);
     useEffect(() => {

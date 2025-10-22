@@ -5,6 +5,7 @@ import {StyledHeader} from "./Home.tsx";
 import {LeftBorders} from "./Education.tsx";
 import {TableDetail} from "./Education.tsx";
 
+/*Unique styling for this page's table*/
 const TableList = styled.ul `
     padding-left: 20%;
     text-align: left;

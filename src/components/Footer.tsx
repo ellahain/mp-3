@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {Link} from "react-router";
 
+/*Styling for footer*/
 const StyledFooter = styled.footer`
     background-color: #042A2B;
     color: white;

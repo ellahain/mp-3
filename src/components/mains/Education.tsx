@@ -3,11 +3,13 @@ import styled from "styled-components";
 import {StyledHeader} from "./Home.tsx";
 import {StyledMain} from "./Home.tsx";
 
+
+/*Styling for left border*/
 export const LeftBorders = styled.p `
     border-left: 2px solid #321325;
     padding-left: 1%;
 `
-
+/*Unique styling for table*/
 const StyledTable = styled.table`
     margin: auto;
 `

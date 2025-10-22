@@ -3,12 +3,12 @@ import {StyledMain} from "./Home.tsx";
 import {StyledHeader} from "./Home.tsx";
 
 
-
+/*Unique styling for list*/
 const StyledList = styled.ul `
     list-style: none;
     padding-left: 0;
 `
-
+/*Styling for most images*/
 export const StyledImage = styled.img `
     max-width: 100%;
     padding-top: 5%;

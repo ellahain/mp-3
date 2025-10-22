@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+/*Styling for mains*/
 export const StyledMain = styled.div`
     background-color: #DDF2EB;
     color: #3D0814;
@@ -14,15 +15,16 @@ export const StyledMain = styled.div`
         padding: 3%;
     }
 `
-
+/*Styling for head of mains*/
 export const StyledHeader = styled.h3`
     font: calc(5px + 2vw) "Roboto", sans-serif;
     `
+/*Unique styling for home text*/
 const StyledText = styled.p`
     text-align: left;
 `
 
-
+/*Unique styling for home image*/
 const StyledImage = styled.img `
     max-width: 100%;
     height: auto;

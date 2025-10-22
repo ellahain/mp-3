@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+/*Styling for header*/
 const StyledHeader = styled.header`
     background-color: #042A2B;
     color: white;

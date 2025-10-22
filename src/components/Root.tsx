@@ -8,15 +8,14 @@ import Work from "./mains/Work.tsx";
 import Projects from "./mains/Projects.tsx";
 import Skills from "./mains/Skills.tsx";
 import Extracurriculars from "./mains/Extracurriculars.tsx";
-
-
 import styled from "styled-components";
 
+/*For squeezed margins on all pages*/
 const SqueezeMargins = styled.div`
     width: 80vw;
     margin: 0 auto;
 `
-
+/*Responsive design for when screen size changes*/
 const ResponsiveContainer = styled.div`
     display: flex;
     flex-direction: row;

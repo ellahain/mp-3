@@ -3,6 +3,7 @@ import {StyledMain} from "./Home.tsx";
 import {StyledImage} from "./Work.tsx";
 import {StyledHeader} from "./Home.tsx";
 
+/*Unique styling for this page's table*/
 const StyledTable = styled.table`
     padding: 18% 0 0 7%;
     margin: auto;

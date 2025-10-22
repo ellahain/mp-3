@@ -1,5 +1,5 @@
 import {useState} from "react";
-import useResult from "../../hooks/useResult.ts";
+import useResult from "./useResult.ts";
 import styled from "styled-components";
 import {StyledMain} from "./Home.tsx";
 
@@ -15,6 +15,7 @@ const StyledInput = styled.input`
     font: calc(2px + 2vw) "Permanent Marker", cursive;
 `
 
+/*This page has a unique main header*/
 const StyledHeader = styled.h3`
     font: calc(5px + 2vw) "Roboto", sans-serif;
     color: white;
@@ -24,7 +25,7 @@ const StyledLabel = styled.label`
     color: white;
     font: calc(2px + 2vw) "Permanent Marker", cursive;
 `
-
+/*This page has an image as the background*/
 const StyledBack = styled(StyledMain)`
     background-image: url("/classroom.jpg");
     @media screen and (max-width: 1000px) {
@@ -33,6 +34,8 @@ const StyledBack = styled(StyledMain)`
         padding: 3%;
     }
 `
+
+/*Div for holding calculator contents*/
 const StyledDiv = styled.div`
     width: 75%;
     margin: 15% auto;
@@ -55,10 +58,6 @@ const StyledNegative = styled.h3`
     color: red;
     font: calc(2px + 2vw) "Permanent Marker", cursive;
 `
-
-
-
-
 
 export default function Projects() {
 
